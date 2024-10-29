@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: bun
+          # cache: bun
 
       - run: bun i -g @antfu/ni
       - run: nci
@@ -45,7 +45,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          cache: bun
+          # cache: bun
 
       - run: bun i -g @antfu/ni
       - run: nci
