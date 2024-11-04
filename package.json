@@ -25,7 +25,8 @@
     "lint:fix": "turbo lint:fix",
     "lint:ci": "turbo lint:ci",
     "format:ci": "turbo format:ci",
-    "test": "turbo test"
+    "test": "turbo test",
+    "typecheck": "turbo typecheck"
   },
   "devDependencies": {
     "@antfu/ni": "^0.23.0",

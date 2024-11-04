@@ -11,6 +11,7 @@
     "format:fix": {},
     "lint:fix": {},
     "lint:ci": {},
+    "typecheck": {},
     "format:ci": {},
     "test": {
       "inputs": ["**/*.test.ts"]
