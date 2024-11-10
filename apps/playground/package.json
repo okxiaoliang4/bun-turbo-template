@@ -13,7 +13,7 @@
     "lint:fix": "biome check --fix .",
     "lint:ci": "biome check --ci .",
     "format:ci": "biome format --ci .",
-    "clean": "rm -rf .turbo node_modules dist"
+    "clean": "git clean -xdf .turbo node_modules dist"
   },
   "dependencies": {
     "react": "^18.3.1",

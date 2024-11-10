@@ -40,7 +40,7 @@
     "start": "esno src/index.ts",
     "test": "bun test",
     "typecheck": "tsc --noEmit",
-    "clean": "rm -rf .turbo node_modules dist"
+    "clean": "git clean -xdf .turbo node_modules dist"
   },
   "devDependencies": {
     "@antfu/ni": "^0.23.0",
