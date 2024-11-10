@@ -28,7 +28,8 @@
     "format:ci": "turbo format:ci",
     "test": "turbo test",
     "typecheck": "turbo typecheck",
-    "clean": "git clean -xdf .turbo node_modules && turbo clean"
+    "clean": "git clean -xdf node_modules",
+    "clean:workspaces": "turbo clean"
   },
   "devDependencies": {
     "@antfu/ni": "^0.23.0",
