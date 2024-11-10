@@ -17,7 +17,7 @@
       "inputs": ["**/*.test.ts"]
     },
     "dev": {
-      "cache": false,
+      "dependsOn": ["^build"],
       "persistent": true
     }
   }

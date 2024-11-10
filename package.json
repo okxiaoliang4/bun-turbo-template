@@ -17,6 +17,7 @@
   "sideEffects": false,
   "workspaces": ["packages/*", "apps/*"],
   "scripts": {
+    "preinstall": "nlx only-allow bun",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
