@@ -14,7 +14,7 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@office-suite/core": ["packages/core/src"]
+      "@repo/core": ["packages/core/src"]
     }
   }
 }

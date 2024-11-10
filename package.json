@@ -1,5 +1,5 @@
 {
-  "name": "@office-suite/root",
+  "name": "@repo/root",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "bun@1.1.30",
@@ -7,12 +7,12 @@
   "author": "jelf <okxiaoliang4@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/okxiaoliang4",
-  "homepage": "https://github.com/okxiaoliang4/office-suite#readme",
+  "homepage": "https://github.com/okxiaoliang4/bun-turbo-template#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/okxiaoliang4/office-suite.git"
+    "url": "git+https://github.com/okxiaoliang4/bun-turbo-template.git"
   },
-  "bugs": "https://github.com/okxiaoliang4/office-suite/issues",
+  "bugs": "https://github.com/okxiaoliang4/bun-turbo-template/issues",
   "keywords": [],
   "sideEffects": false,
   "workspaces": ["packages/*", "apps/*"],
@@ -27,7 +27,8 @@
     "lint:ci": "turbo lint:ci",
     "format:ci": "turbo format:ci",
     "test": "turbo test",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "clean": "turbo clean"
   },
   "devDependencies": {
     "@antfu/ni": "^0.23.0",

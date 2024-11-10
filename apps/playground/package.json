@@ -12,12 +12,13 @@
     "format:fix": "biome format --write .",
     "lint:fix": "biome check --fix .",
     "lint:ci": "biome check --ci .",
-    "format:ci": "biome format --ci ."
+    "format:ci": "biome format --ci .",
+    "clean": "rm -rf .turbo node_modules dist"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "@office-suite/core": "workspace:*"
+    "@repo/core": "workspace:*"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
