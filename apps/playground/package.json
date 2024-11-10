@@ -16,9 +16,9 @@
     "clean": "git clean -xdf .turbo node_modules dist"
   },
   "dependencies": {
+    "@repo/core": "workspace:*",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@repo/core": "workspace:*"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
