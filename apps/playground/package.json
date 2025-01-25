@@ -18,9 +18,9 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@repo/tailwind": "workspace:*",
     "@repo/tsconfig": "workspace:*",
     "@repo/ui": "workspace:*",
-    "@repo/tailwind": "workspace:*",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.7.2",
