@@ -16,9 +16,9 @@
   "bugs": "https://github.com/okxiaoliang4/bun-turbo-template/issues",
   "keywords": [],
   "sideEffects": false,
-  "workspaces": ["packages/*", "apps/*", "tools/*"],
+  "workspaces": ["packages/*", "apps/*", "tooling/*"],
   "scripts": {
-    "preinstall": "nlx only-allow bun",
+    "preinstall": "bunx only-allow bun",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "biome check .",
@@ -32,7 +32,6 @@
     "clean": "turbo clean && git clean -xdf .turbo node_modules"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.23.2",
     "@biomejs/biome": "^1.9.4",
     "lefthook": "^1.10.10",
     "turbo": "^2.3.4"
