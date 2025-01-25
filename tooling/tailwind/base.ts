@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+// @ts-expect-error types
 import { fontFamily } from 'tailwindcss/defaultTheme'
 
 export default {

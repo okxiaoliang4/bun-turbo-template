@@ -18,6 +18,7 @@
         "react-dom": "^18.3.1",
       },
       "devDependencies": {
+        "@repo/tailwind": "workspace:*",
         "@repo/tsconfig": "workspace:*",
         "@repo/ui": "workspace:*",
         "@types/react": "^18.3.18",
