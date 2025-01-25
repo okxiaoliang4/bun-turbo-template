@@ -1,0 +1,22 @@
+{
+  "name": "@repo/tailwind",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./base": "./base.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "clean": "git clean -xdf .turbo .cache node_modules dist"
+  },
+  "dependencies": {
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@repo/tsconfig": "workspace:*",
+    "typescript": "^5.7.3"
+  }
+}

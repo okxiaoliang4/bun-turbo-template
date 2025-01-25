@@ -29,11 +29,9 @@
   "scripts": {
     "build": "tsup",
     "prepublishOnly": "nr build",
-    "release": "bumpp && npm publish",
-    "start": "esno src/index.ts",
     "test": "bun test",
     "typecheck": "tsc --noEmit",
-    "clean": "git clean -xdf .turbo node_modules dist"
+    "clean": "git clean -xdf .turbo .cache node_modules dist"
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",
