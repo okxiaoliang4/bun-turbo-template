@@ -7,12 +7,6 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "lint": "biome check .",
-    "format": "biome format .",
-    "format:fix": "biome format --write .",
-    "lint:fix": "biome check --fix .",
-    "lint:ci": "biome check --ci .",
-    "format:ci": "biome format --ci .",
     "clean": "git clean -xdf .turbo node_modules dist"
   },
   "dependencies": {
@@ -21,12 +15,11 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "globals": "^15.11.0",
-    "typescript": "^5.6.3",
-    "vite": "^5.4.9"
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14"
   }
 }

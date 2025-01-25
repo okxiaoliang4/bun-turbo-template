@@ -8,7 +8,8 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": [".vscode", "node_modules", "dist", "*.gen.ts"]
+    "ignore": [".vscode", "node_modules", "dist", "*.gen.ts", "edityjs"],
+    "maxSize": 1024000000
   },
   "formatter": {
     "enabled": true,
@@ -20,17 +21,34 @@
   },
   "linter": {
     "enabled": true,
+    "ignore": ["node_modules", "dist"],
     "rules": {
+      "correctness": {
+        "useExhaustiveDependencies": "info",
+        "noUnusedImports": "warn"
+      },
+      "suspicious": {
+        "noExplicitAny": "warn"
+      },
       "recommended": true,
       "complexity": {
         "noForEach": "off"
       },
+      "performance": {
+        "noDelete": "info"
+      },
       "style": {
-        "noNonNullAssertion": "off"
+        "noNonNullAssertion": "off",
+        "useDefaultParameterLast": "off",
+        "useImportType": "error",
+        "useExportType": "info"
       }
     }
   },
   "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
     "formatter": {
       "quoteStyle": "single",
       "semicolons": "asNeeded"

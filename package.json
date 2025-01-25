@@ -16,28 +16,25 @@
   "bugs": "https://github.com/okxiaoliang4/bun-turbo-template/issues",
   "keywords": [],
   "sideEffects": false,
-  "workspaces": ["packages/*", "apps/*"],
+  "workspaces": ["packages/*", "apps/*", "tools/*"],
   "scripts": {
     "preinstall": "nlx only-allow bun",
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint && bun lint:repo",
-    "format": "turbo format",
-    "format:fix": "turbo format:fix",
-    "lint:fix": "turbo lint:fix && bun lint:repo:fix",
-    "lint:ci": "turbo lint:ci",
-    "format:ci": "turbo format:ci",
+    "lint": "biome check .",
+    "lint:fix": "biome check . --write",
+    "lint:ci": "biome check --ci .",
     "test": "turbo test",
+    "test:watch": "turbo test:watch",
     "typecheck": "turbo typecheck",
-    "clean": "git clean -xdf node_modules",
-    "clean:workspaces": "turbo clean",
     "lint:repo": "bunx sherif@latest",
-    "lint:repo:fix": "bunx sherif@latest --fix"
+    "lint:repo:fix": "bunx sherif@latest --fix",
+    "clean": "turbo clean && git clean -xdf .turbo node_modules"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.23.0",
+    "@antfu/ni": "^0.23.2",
     "@biomejs/biome": "^1.9.4",
-    "lefthook": "^1.8.2",
-    "turbo": "^2.2.3"
+    "lefthook": "^1.10.10",
+    "turbo": "^2.3.4"
   }
 }

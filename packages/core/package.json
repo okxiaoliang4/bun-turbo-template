@@ -28,13 +28,6 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch",
-    "lint": "biome check .",
-    "format": "biome format .",
-    "format:fix": "biome format --write .",
-    "lint:fix": "biome check --fix .",
-    "lint:ci": "biome check --ci .",
-    "format:ci": "biome format --ci .",
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
@@ -43,13 +36,6 @@
     "clean": "git clean -xdf .turbo node_modules dist"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.23.0",
-    "@antfu/utils": "^0.7.10",
-    "@biomejs/biome": "^1.9.4",
-    "@types/bun": "latest",
-    "@types/node": "^22.5.4",
-    "bumpp": "^9.5.2",
-    "esno": "^4.7.0",
     "tsup": "^8.3.5",
     "typescript": "^5.6.3"
   }
