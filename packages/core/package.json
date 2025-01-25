@@ -34,7 +34,7 @@
     "clean": "git clean -xdf .turbo .cache node_modules dist"
   },
   "devDependencies": {
-    "@repo/tsconfig": "workspace:*",
+    "@repo/tsconfig": "0.0.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.3"
   }

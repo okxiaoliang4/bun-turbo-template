@@ -4,11 +4,13 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "ui-add": "bunx --bun shadcn@canary add",
     "typecheck": "tsc --noEmit",
     "clean": "git clean -xdf .turbo .cache node_modules dist"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-tooltip": "^1.1.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "0.456.0",
@@ -19,7 +21,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@repo/tsconfig": "workspace:*",
+    "@repo/tsconfig": "0.0.0",
     "@turbo/gen": "^2.2.3",
     "@types/node": "^22.9.0",
     "@types/react": "^18.3.18",

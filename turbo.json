@@ -1,5 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
   "tasks": {
     "dev": {
       "cache": false,
@@ -21,6 +22,10 @@
     },
     "clean": {
       "cache": false
+    },
+    "ui-add": {
+      "cache": false,
+      "interactive": true
     },
     "//#lint": {},
     "//#lint:fix": {

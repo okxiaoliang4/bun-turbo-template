@@ -29,7 +29,8 @@
     "typecheck": "turbo typecheck",
     "lint:repo": "bunx sherif@latest",
     "lint:repo:fix": "bunx sherif@latest --fix",
-    "clean": "turbo clean && git clean -xdf .turbo node_modules"
+    "clean": "turbo clean && git clean -xdf .turbo node_modules",
+    "ui-add": "turbo run ui-add"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

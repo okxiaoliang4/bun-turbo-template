@@ -13,14 +13,14 @@
     "clean": "git clean -xdf .turbo .cache node_modules dist"
   },
   "dependencies": {
-    "@repo/core": "workspace:*",
+    "@repo/core": "0.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@repo/tailwind": "workspace:*",
-    "@repo/tsconfig": "workspace:*",
-    "@repo/ui": "workspace:*",
+    "@repo/tailwind": "0.0.0",
+    "@repo/tsconfig": "0.0.0",
+    "@repo/ui": "0.0.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.7.2",
