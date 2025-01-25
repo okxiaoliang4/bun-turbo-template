@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "bun@1.1.30",
+  "packageManager": "bun@1.2.0",
   "description": "_description_",
   "author": "jelf <okxiaoliang4@gmail.com>",
   "license": "MIT",
