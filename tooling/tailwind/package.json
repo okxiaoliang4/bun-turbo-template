@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "description": "_description_",
+  "author": "jelf <okxiaoliang4@gmail.com>",
+  "license": "MIT",
   "exports": {
     "./base": "./base.ts"
   },
@@ -12,7 +15,7 @@
   },
   "dependencies": {
     "postcss": "^8.5.1",
-    "tailwindcss": "^4.0.0",
+    "tailwindcss": "^3.4.14",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {

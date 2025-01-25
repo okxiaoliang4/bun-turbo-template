@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "_description_",
+  "author": "jelf <okxiaoliang4@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -16,6 +19,8 @@
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",
+    "@repo/ui": "workspace:*",
+    "@repo/tailwind": "workspace:*",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.7.2",

@@ -1,9 +1,7 @@
-import { name } from '@repo/core'
-import '@repo/core/index.css'
+import { Button } from '@repo/ui/components/button'
 
 function App() {
-  console.log(name)
-  return <div>Hello World</div>
+  return <Button>Click me</Button>
 }
 
 export default App

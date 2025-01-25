@@ -1,11 +1,11 @@
 {
   "name": "@repo/core",
+  "private": true,
   "type": "module",
   "version": "0.0.0",
   "description": "_description_",
   "author": "jelf <okxiaoliang4@gmail.com>",
   "license": "MIT",
-  "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

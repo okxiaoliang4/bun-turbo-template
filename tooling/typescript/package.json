@@ -1,6 +1,9 @@
 {
   "name": "@repo/tsconfig",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "description": "_description_",
+  "author": "jelf <okxiaoliang4@gmail.com>",
+  "license": "MIT",
   "files": ["*.json"]
 }
